@@ -1,9 +1,9 @@
-import Image from 'next/image'
+//app/page.tsx
 
 export default function Home() {
   return (
-    <main >
-      Threads
-    </main>
-    )
+    <>
+      <h1 className="header-text text-left ">Home</h1>
+    </>
+  )
 }
